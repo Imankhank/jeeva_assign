@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* FONT WEIGHTS */
+.fw_400 {
+  font-weight: 400;
+}
+.fw_500 {
+  font-weight: 500;
+}
+.fw_600 {
+  font-weight: 600;
+}
+.fw_700 {
+  font-weight: 700;
+}
+.fw_500 {
+  font-weight: 500;
+}
+.fw_800 {
+  font-weight: 800;
+}
+/* FONT SIZES */
+.fs_14 {
+  font-size: 14px;
+}
+.fs_16 {
+  font-size: 16px;
+}
+.fs_18 {
+  font-size: 18px;
+}
+.fs_20 {
+  font-size: 20px;
+}
+.fs_22 {
+  font-size: 22px;
+}
+.fs_24 {
+  font-size: 22px;
+}
+.fs_28 {
+  font-size: 28px;
+}
+
+.primary_color {
+  color: #00b3ff;
+}
+.sec_color {
+  color: #afafaf;
+}
+.color_15223C {
+  color: #15223c;
+}
+.color_2DD683 {
+  color: #2dd683;
+}
+.color_E74A51 {
+  color: #e74a51;
+}
+
+/* BACKGROUND COLOR */
+.bg_E3F6FE {
+  background: #e3f6fe;
+}
+.bg_2DD683 {
+  background: #2dd68320;
+}
+.bg_F5F6FA {
+  background: #f5f6fa;
+}
+.bg_00B3FF {
+  background: #00b3ff;
+}
+.bg_d9d9d9 {
+  background: #d9d9d9;
+}
+/* BORDERS */
+.border_e6e9ee {
+  border: 2px solid #e6e9ee;
+}
+.border_00b3ff {
+  border: 2px solid #00b3ff;
+}
+.shadow_AFAFAF30 {
+  box-shadow: 2px 2px 2px 0px #afafaf30;
+}
+
+/* OTHER REQUIREMENTS */
+.cursor_pointer {
+  cursor: pointer;
+}
+
+.main-section {
+  width: 96%;
+}
+
+.input-field::placeholder {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+}
+.input-field:focus-visible {
+  outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.react-select {
+  width: 8rem;
+}
+.react-select:focus {
+  outline: none;
+}
+
+.html-progress-container {
+  width: 100%;
+  height: 5px;
+  border-radius: 10px;
+}
+
+.html-progress {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.html-progress::-webkit-progress-bar {
+  background-color: #f5f6fa;
+  border-radius: 10px; /* You may add this for consistency */
+}
+
+.html-progress::-webkit-progress-value {
+  background-color: #00b3ff;
+  border-radius: 20px; /* You may add this for consistency */
+}
+.outer_circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.inner_circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+@media only screen and (min-width: 1400px) {
+  .line-graph-height {
+    height: 28rem;
+  }
+}
